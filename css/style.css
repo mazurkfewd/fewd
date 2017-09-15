@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700i');
+/*Import Raleway 400, 600 and 700 on line #1 (must be on first line)*/
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+
+
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 10px;
+
+}
+
+.grid-drinks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin: 10px;
+
+}
+
+.grid-map {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 30px;
+  margin: 20px;
+
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+
+}
+
+.grid-map p {
+margin: 1%
+
+}
+
+.grid-map img {
+max-width: 100%;
+
+}
+
+body {
+  text-align: center;
+  font-family: 'Raleway';
+  margin: 0px;
+}
+
+body a {
+color: #b87333;
+text-align: center;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+.carousel_section{
+  display: inline-block;
+  position: relative;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 150px;
+  position: absolute;
+  right: 70px;
+  bottom: 10px
+}
+
+header h2 {
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 130px;
+}
+
+header {
+    background-image: url("../images/mule.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+h3 {
+  text-align: center;
+
+}
+
+nav{
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 15px;
+  background-color: #b87333;
+  z-index: 100;
+}
+
+header nav a {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 90px;
+  font-size: 24px;
+  color: white;
+
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  background-color: black;
+  color: #b87333;
+  text-decoration: none;
+}
+
+.close {
+top: 0;
+right: 100;
+color: #32CD32;
+
+}
+
+.carousel_section img:not(:first-of-type) {
+  display:none
+}
+
+.left_button {
+  position: absolute;
+  bottom: 40%;
+  left: 2%;
+  opacity: .8;
+  background-color: #b87333;
+
+}
+.right_button {
+  position: absolute;
+  bottom: 40%;
+  right: 2%;
+  opacity: .8;
+  background-color: #b87333;
+}
+
+.modalform {
+opacity: .7;
+font-size: 32px;
+text-align: center;
+
+}
+
+.rightarrow {
+  position: absolute;
+  right: 20px;
+  top: 48%;
+  color: #b87333;
+  font-size: 48px;
+  opacity: 0.9;
+
+}
+
+.leftarrow {
+  position: absolute;
+  color: #b87333;
+  left: 20px;
+  top: 48%;
+  font-size: 48px;
+  opacity: 0.9;
+}
+
+
+section {
+text-align: center;
+}
+
+#about {
+margin-top: 40px;
+}
+
+header a {
+color: white;
+text-decoration: overline;
+}
+
+.modalwrap {
+background-color: #b87333;
+padding: 0px;
+
+
+}
+
+.reservation {
+background-color: #b87333;
+padding: 20px;
+
+}
+
+.active {
+
+transform: translateX(150deg);
+
+}
+
+.passive {
+
+transform: translateX(-150deg);
+
+}
+
+.brunch {
+text-decoration: none;
+
+}
+
+.dinner {
+
+text-decoration: none;
+
+}
+
+.drinks {
+
+text-decoration: none;
+
+
+}
+
+
+button {
+background-color: #32CD32;
+cursor:pointer;
+padding: 30px;
+font-size: 16px;
+border: none;
+font-weight: bold;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .grid-drinks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .grid-drinks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .grid-map {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+/* ----------------------------------------
+Add comments here for organization!!
+------------------------------------------- */

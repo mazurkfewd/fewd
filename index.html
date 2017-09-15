@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://use.fontawesome.com/5077bd3fbb.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pacific | Home</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- I've added a link for FontAwesome icons for you! -->
+
+</head>
+<header>
+
+
+  <nav><a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Location</a>
+    <a href="#">Reservations</a>
+    <a href="#">Gallery</a>
+  </nav>
+
+
+  <h1>Blue Copper</h1>
+  <h2>Mules Served Fresh Daily<h2>
+  </header>
+
+  <!-- Don't forget to indent!
+  The shortcut to fix indentation:
+  Select all your HTML, then Edit > Lines > Auto Indent -->
+  <body>
+<!-- //<div id="modal">
+
+</div> -->
+
+    <main>
+
+      <section>
+        <h2>Menu</h2>
+
+        <a class="brunch" href="#">Brunch</a> / <a class="dinner" href="#">Dinner</a> / <a class="drinks" href="#">Drinks</a>
+
+
+
+      </section>
+      <section class="grid-wrapper" id="brunch">
+
+
+        <article>
+          <h4>Onion Quiche</h4>
+          quiche of caramelized onions, pickled vegetables, arugula
+        </article>
+
+        <article>
+          <h4>  Lox Bagel</h4>
+          capers, tomato, cream cheese
+        </article>
+
+        <article>
+          <h4>  NY Bagel Plate</h4>
+          smoked salmon, tomato, onion, cream cheese
+        </article>
+
+        <article>
+          <h4>  Smoked Salmon Benedict</h4>
+          wild smoked salmon, poached eggs, english muffin
+        </article>
+
+        <article>
+          <h4>  Warm Quinoa</h4>
+          blueberries, almonds, sweet cream
+        </article>
+
+        <article>
+          <h4>  Challah French Toast</h4>
+          almonds, maple whipped cream
+        </article>
+      </section>
+      <section class="grid-wrapper" id="dinner">
+        <article>
+          <h4>  Primavera Salad</h4>
+          arugula, cherry tomato, shallot vinaigrette
+        </article>
+
+        <article>
+          <h4>  Grilled Calamari</h4>
+          tomato sauce, lemon
+        </article>
+
+        <article>
+          <h4>  Branzino</h4>
+          cucumber, shallots, puffed brown rice
+        </article>
+        <article>
+          <h4>  Yellowfin Tuna</h4>
+          aged balsamic and crispy fennel
+        </article>
+        <article>
+          <h4>  Maya Prawns</h4>
+          corriander mayonnaise
+        </article>
+        <article>
+          <h4>  Cold Poached Lobster</h4>
+          tomalley vinaigrette
+        </article>
+      </section>
+
+
+      <section class="grid-drinks" id="drinks">
+
+        <article>
+          <h4>Manhattan</h4>
+          rye whisky, sweet vermouth, bitters
+        </article>
+        <article>
+          <h4>  Dark &amp; Stormy</h4>
+          black rum, ginger beer, lime
+        </article>
+        <article>
+          <h4>Old Cuban</h4>
+          aged rum, lime juice, bitters, champagne
+        </article>
+        <article>
+          <h4>Negroni</h4>
+          gin, vermouth rosso, campari
+        </article>
+
+        <article>
+          <h4>Bloody Mary</h4>
+          tomato juice, vodka, tabasco, bacon bits
+        </article>
+        <article>
+          <h4>Green &amp; Amber</h4>
+          vodka, single-malt scotch, honey, lemon, green tea
+        </article>
+        <article>
+          <h4>Jager Bombs</h4>
+          Jagermeister, Red Bull
+        </article>
+        <article>
+          <h4>Moscow Mule</h4>
+          vodka, ginger beer, lime juice
+        </article>
+      </section>
+
+      <section class='carousel_section'>
+          <img class='carousel_image' src='images/carousel-2.jpg' alt='temp'>
+          <img class='carousel_image' src='images/carousel-1.jpg' alt='temp'>
+          <img class='carousel_image' src='images/carousel-3.jpg' alt='temp'>
+          <button class='left_button' onclick="plusDivs(-1)">&#10094;</button>
+          <button class='right_button' onclick="plusDivs(+1)">&#10095;</button>
+        </section>
+    </main>
+
+
+
+
+
+    <section class="grid-map">
+      <article id="about">
+        <h4>Phone</h4>
+        <p>(415) 243-1234</p>
+
+        <h4>Location</h4>
+        <p>30 Bolinas Ave</p>
+        <p>Bolinas, CA 94110</p>
+        <p>at Downtown Plaza</p>
+
+        <h4>Hours</h4>
+        <p>M-Th 5p–11p</p>
+        <p>F-Sa 12p–11p</p>
+        <p>Su 10a–11p</p>
+      </article>
+      <article>
+        <p><img src="images/map.png" alt="Image 4">
+        </article>
+      </section>
+
+      <section class="reservation">
+        <button type="button">Reservations</button>
+      </section>
+
+<section class="modalwrap">
+  </p>
+ <div id="google" class="modaloverlay">
+   <div class="modal">
+     <div>
+       <form class="modalform">
+        <br>
+         First name: <input type="text" name="firstname">
+         <br>
+         Last name: <input type="text" name="lastname">
+         <br>
+         Date: <input type="text" name="date">
+         <br>
+         Time: <input type="text" name="time">
+         <br>
+         <input type="submit" value="Submit">
+         <a href="#close" class="close">Close</a>
+       </form>
+     </div>
+   </div>
+ </div>
+</section>
+
+
+
+
+
+    </main>
+  </body>
+
+
+  <footer>
+    <section class="grid-footer">
+      <article>
+        <a href="#">Menu</a>
+      </article>
+      <article>
+        <a href="#">Location</a>
+      </article>
+      <article>
+        <a href="#">Reservations</a>
+      </article>
+      <article>
+        <a href="#">Gallery</a>
+      </article>
+
+      <article>
+        Phone
+        (415) 243-1234
+      </article>
+      <article>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </article>
+
+    </section>
+  </footer>
+  <!-- Google and add FontAwesome icons here! -->
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  </html>
